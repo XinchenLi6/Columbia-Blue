@@ -6,3 +6,4 @@ James Blackburn
 Xinchen Li
 Kevin Liao
 Avidan Loike
+Chelsea Zhang
