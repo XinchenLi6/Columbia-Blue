@@ -6,6 +6,6 @@
 
 | Names         | 
 | ------------- |
-| col 3 is      |
-| col 2 is      |
+| name          |
+| Name          |
 | Name          |
