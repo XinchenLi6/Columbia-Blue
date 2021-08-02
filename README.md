@@ -1,3 +1,3 @@
 # Columbia-Blue
 ## The Project of _______
-###### Gottah figure that one out
+###### Gotta figure that one out
