@@ -23,7 +23,7 @@ img.onload = function() {
 let canvas = document.querySelector('canvas');
 let ctx = canvas.getContext('2d');
 
-const SCALE = 2;
+const SCALE = 1.5;
 const WIDTH = 26;
 const HEIGHT = 29;
 const SCALED_WIDTH = SCALE * WIDTH;
@@ -51,22 +51,34 @@ function keyUpListener(event) {
     keyDown[event.key] = false;
 }
 
-const movespeed = 2;
+const movespeed = 3;
 let positionX = 0;
 let positionY = 0;
+
 
 function movementMechanics() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   
   if (keyDown.ArrowUp) {
-    positionY -= movespeed;
-  } else if (keyDown.ArrowDown) {
-    positionY += movespeed;
+      if (positionY >= movespeed) {
+        positionY -= movespeed;
+      }
+   } else if (keyDown.ArrowDown) {
+       if (positionY <= 665 - movespeed) {
+        positionY += movespeed;
+       }
+    
   }
   if (keyDown.ArrowLeft) {
-    positionX -= movespeed;
+      if (positionX >=movespeed) {
+        positionX -= movespeed;
+      }
+    
   } else if (keyDown.ArrowRight) {
-    positionX += movespeed;
+      if (positionX <= 1470 -movespeed) {
+        positionX += movespeed;
+      }
+    
  }
   drawFrame(0, 0, positionX, positionY);
  window.requestAnimationFrame(movementMechanics);
