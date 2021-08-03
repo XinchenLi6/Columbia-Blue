@@ -11,27 +11,28 @@
 
 
 
-    <canvas width="300" height="200"></canvas>
 
-    <script type="text/javascript">
+    <canvas width="1200px" height="700px" style="border-color: brown;"></canvas>
 
-        let img = new Image();
-        img.src = 'https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png';
-        img.onload = function () {
-            window.requestAnimationFrame(movementMechanics);
-        };
+ <script type="text/javascript">
 
-        let canvas = document.querySelector('canvas');
-        let ctx = canvas.getContext('2d');
+let img = new Image();
+img.src = 'https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png';
+img.onload = function() {
+  window.requestAnimationFrame(movementMechanics);
+};
 
-        const SCALE = 2;
-        const WIDTH = 26;
-        const HEIGHT = 29;
-        const SCALED_WIDTH = SCALE * WIDTH;
-        const SCALED_HEIGHT = SCALE * HEIGHT;
+let canvas = document.querySelector('canvas');
+let ctx = canvas.getContext('2d');
 
-        function drawFrame(frameX, frameY, canvasX, canvasY) {
-            ctx.drawImage(img,
+const SCALE = 1.5;
+const WIDTH = 26;
+const HEIGHT = 29;
+const SCALED_WIDTH = SCALE * WIDTH;
+const SCALED_HEIGHT = SCALE * HEIGHT;
+
+function drawFrame(frameX, frameY, canvasX, canvasY) {
+  ctx.drawImage(img,
                 frameX * WIDTH, frameY * HEIGHT, WIDTH, HEIGHT,
                 canvasX, canvasY, SCALED_WIDTH, SCALED_HEIGHT);
         }
@@ -73,7 +74,38 @@
             window.requestAnimationFrame(movementMechanics);
         }
 
+const movespeed = 3;
+let positionX = 0;
+let positionY = 0;
 
+
+function movementMechanics() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  if (keyDown.ArrowUp) {
+      if (positionY >= movespeed) {
+        positionY -= movespeed;
+      }
+   } else if (keyDown.ArrowDown) {
+       if (positionY <= 665 - movespeed) {
+        positionY += movespeed;
+       }
+    
+  }
+  if (keyDown.ArrowLeft) {
+      if (positionX >=movespeed) {
+        positionX -= movespeed;
+      }
+    
+  } else if (keyDown.ArrowRight) {
+      if (positionX <= 1470 -movespeed) {
+        positionX += movespeed;
+      }
+    
+ }
+  drawFrame(0, 0, positionX, positionY);
+ window.requestAnimationFrame(movementMechanics);
+}
 
 
 
