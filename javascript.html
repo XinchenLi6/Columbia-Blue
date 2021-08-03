@@ -12,18 +12,9 @@
 
     
 
-    <canvas width="100%" height="80%" style="border-color: brown;"></canvas>
+    <canvas width=1500 height=700px style="border-color: brown;"></canvas>
         
  <script type="text/javascript">
- var widths = document.getElementById('canvas');
-var thee = window.getComputedStyle(widths).width;
-console.log(thee);
-var heights = document.getElementById('canvas');
-var weHave = window.getComputedStyle(heights).height;
-console.log(weHave);
-//the variables for height and width are weHave for height and thee for width you can change them I just didn't want to get something anyone may have already used
-
-
 let img = new Image();
 img.src = 'https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png';
 img.onload = function() {
@@ -61,7 +52,7 @@ function keyUpListener(event) {
     keyDown[event.key] = false;
 }
 
-const movespeed = 2;
+const movespeed = 3;
 let positionX = 0;
 let positionY = 0;
 
