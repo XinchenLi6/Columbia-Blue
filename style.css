@@ -1,0 +1,123 @@
+body { font-family: 'Poppins', sans-serif !important; }
+
+.navbar {
+  background: #007BFF;
+  padding: 16px !important;
+}
+
+.navbar-brand {
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 32px;
+  border-right: 0.5px solid rgba(255, 255, 255, 0.65);
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 12px 0px 12px;
+}
+
+.nav-item a:hover { 
+  color: #9ABAFF !important;
+}
+
+.active a:hover { 
+  color: white !important;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+a.btn { 
+font-weight: bold !important; 
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #2C3E50; }
+::-webkit-scrollbar-thumb:hover {background: #212F3D; }
+
+.list {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	text-align: justify;
+}
+  
+.icon img {
+  max-height: 50px;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;  
+}
+
+.title {
+  font-weight: 600;
+  text-align: left;
+  font-size: 25px;
+  color: #323232;
+  padding: 9px 0;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: justify;
+  color: #323232 !important;
+  max-width: 400px;
+  margin-top: 10px;
+}
+
+.list-item {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-family: 'Nunito', sans-serif !important;
+  line-height: 1.5;
+  background: #eee;
+  -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,.16);
+  box-shadow: 10px 10px 10px rgba(0,0,0,.16);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.tag {
+  color: white !important;
+  opacity: 0.8;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 8px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.featured { 	
+  background: #70F978;
+  background-image: linear-gradient(to right, purple, blue);
+}
+
+.admin { 
+  background: rgb(255, 53, 53);
+  background-image: linear-gradient(to right, rgb(255, 53, 53), rgb(255, 53, 53));
+}
+
+.disabled {
+  cursor: not-allowed !important;
+}
+
+a.btn { 
+  font-weight: 400 !important;
+  text-transform: capitalize;
+}
