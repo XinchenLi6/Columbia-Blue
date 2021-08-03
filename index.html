@@ -23,7 +23,38 @@
         </div>
         </div>
     </nav>
+    <style>
+        .alert {
+          padding: 20px;
+          background-color: #f44336;
+          color: white;
+        }
+        
+        .closebtn {
+          margin-left: 15px;
+          color: white;
+          font-weight: bold;
+          float: right;
+          font-size: 22px;
+          line-height: 20px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        
+        .closebtn:hover {
+          color: black;
+        }
+        </style>
+        </head>
+        <body>
+ 
+
+        <div class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+          <strong>Danger!</strong> There is a bug in the code. Please fix
+        </div>
     <section>
+        
         <div style="margin-top: 85px;">
             <div class="container">
                 <div class="row">
@@ -40,8 +71,16 @@
                 <div class="row">
                     <div class="col col-6-lg">
                         <div class="card-group">
-                            <div class="card" style="padding-bottom: 17px;padding-right: 4px;"><embed type="text/html" src="javascript.html" width="100%" height="200">
-
+                            <div class="card" style="padding-bottom: 17px;padding-right: 4px;"><embed scrolling="no" type="text/html" src="javascript.html" width="100%" height="500">
+                                <script>
+                                    window.top.document.onkeydown = function(evt) {
+                            evt = evt || window.event;
+                            var keyCode = evt.keyCode;
+                            if (keyCode >= 37 && keyCode <= 40) {
+                                return false;
+                            }
+                        };
+                                </script>
                                 <div class="card-body">
                                     <h4 class="card-title"><strong>Sprite Game</strong></h4>
                                     <p class="card-text">Its a game that you try and dodge obsticles and don't die</p></div>
