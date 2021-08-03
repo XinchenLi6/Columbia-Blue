@@ -27,11 +27,13 @@ let img = new Image();
       
       window.addEventListener('keydown', keyDownListener);
       function keyDownListener(event) {
-          keyDown[event.key] = true;
+        event.preventDefault();
+        keyDown[event.key] = true;
       }
       
       window.addEventListener('keyup', keyUpListener);
       function keyUpListener(event) {
+        event.preventDefault();
           keyDown[event.key] = false;
       }
       
@@ -41,6 +43,7 @@ let img = new Image();
       
       
       function movementMechanics() {
+        
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         
         if (keyDown.ArrowUp) {
