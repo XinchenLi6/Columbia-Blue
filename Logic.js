@@ -70,3 +70,8 @@ let img = new Image();
         drawFrame(0, 0, positionX, positionY);
        window.requestAnimationFrame(movementMechanics);
       }
+
+
+
+
+
