@@ -17,7 +17,14 @@ let img = new Image();
         ctx.drawImage(img,
                       frameX * WIDTH, frameY * HEIGHT, WIDTH, HEIGHT,
                       canvasX, canvasY, SCALED_WIDTH, SCALED_HEIGHT);
-      }
+      
+      var context = canvas.getContext('2d');
+          context.fillRect(100,100,90,90);
+      
+        };
+    
+
+
       
       const CYCLE_LOOP = [0, 1, 0, 2];
       let currentLoopIndex = 0;
@@ -70,3 +77,4 @@ let img = new Image();
         drawFrame(0, 0, positionX, positionY);
        window.requestAnimationFrame(movementMechanics);
       }
+     
