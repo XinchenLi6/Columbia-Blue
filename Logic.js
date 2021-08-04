@@ -20,12 +20,14 @@ let img = new Image();
       
       var context = canvas.getContext('2d');
           context.fillRect(100,100,90,90);
-      
+     
+          
+
+          
         };
     
 
 
-      
       const CYCLE_LOOP = [0, 1, 0, 2];
       let currentLoopIndex = 0;
       let frameCount = 0;
@@ -78,3 +80,8 @@ let img = new Image();
        window.requestAnimationFrame(movementMechanics);
       }
      
+
+
+
+
+
