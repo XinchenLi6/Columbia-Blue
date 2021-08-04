@@ -2,21 +2,248 @@ let img = new Image();
       img.src = 'https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png';
       img.onload = function() {
         window.requestAnimationFrame(movementMechanics);
+        
       };
+ 
+    
+
+
+      let elem = img
+      let rect = elem.getBoundingClientRect();
+      console.log(rect)
+      
+      
+
+
       
       let canvas = document.querySelector('canvas');
       let ctx = canvas.getContext('2d');
       
-      const SCALE = 1.5;
+      const SCALE = 1;
       const WIDTH = 26;
       const HEIGHT = 29;
       const SCALED_WIDTH = SCALE * WIDTH;
       const SCALED_HEIGHT = SCALE * HEIGHT;
       
+      
+      
+      const generateRandomNumber = (min, max) =>  {
+        return (Math.random() * (max - min) + min);
+        };
+       
+
+      var blocks = [];
+      
+      let xpositionobstacle1 = (generateRandomNumber(0,1450));
+      let ypositionobstacle1 = (generateRandomNumber(0,650));
+      
+      blocks.push({blockNumber: 1, x: xpositionobstacle1, y: ypositionobstacle1}) 
+      
+      let xpositionobstacle2 = (generateRandomNumber(0,1450));
+      let ypositionobstacle2 = (generateRandomNumber(0,650));
+
+      blocks.push({blockNumber: 2, x: xpositionobstacle2, y: ypositionobstacle2}) 
+
+      let xpositionobstacle3 = (generateRandomNumber(0,1450));
+      let ypositionobstacle3 = (generateRandomNumber(0,650));
+
+      blocks.push({blockNumber: 3, x: xpositionobstacle3, y: ypositionobstacle3}) 
+
+      let xpositionobstacle4 = (generateRandomNumber(0,1450));
+      let ypositionobstacle4 = (generateRandomNumber(0,650));
+
+      blocks.push({blockNumber: 4, x: xpositionobstacle4, y: ypositionobstacle4}) 
+      
+      let xpositionobstacle5 = (generateRandomNumber(0,1450));
+      let ypositionobstacle5 = (generateRandomNumber(0,650));
+
+      blocks.push({blockNumber: 5, x: xpositionobstacle5, y: ypositionobstacle5}) 
+      
+      let xpositionobstacle6 = (generateRandomNumber(0,1450));
+      let ypositionobstacle6 = (generateRandomNumber(0,650));
+      
+      blocks.push({blockNumber: 6, x: xpositionobstacle6, y: ypositionobstacle6}) 
+
+      let xpositionobstacle7 = (generateRandomNumber(0,1450));
+      let ypositionobstacle7 = (generateRandomNumber(0,650));
+      
+      blocks.push({blockNumber: 7, x: xpositionobstacle7, y: ypositionobstacle7}) 
+      
+      let xpositionobstacle8 = (generateRandomNumber(0,1450));
+      let ypositionobstacle8 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 8, x: xpositionobstacle8, y: ypositionobstacle8})
+      
+
+      let xpositionobstacle9 = (generateRandomNumber(0,1450));
+      let ypositionobstacle9 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 9, x: xpositionobstacle9, y: ypositionobstacle9})
+
+      let xpositionobstacle10 = (generateRandomNumber(0,1450));
+      let ypositionobstacle10 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 10, x: xpositionobstacle10, y: ypositionobstacle10})
+      
+      let xpositionobstacle11 = (generateRandomNumber(0,1450));
+      let ypositionobstacle11 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 11, x: xpositionobstacle11, y: ypositionobstacle11})
+
+      let xpositionobstacle12 = (generateRandomNumber(0,1450));
+      let ypositionobstacle12 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 12, x: xpositionobstacle12, y: ypositionobstacle12})
+
+      let xpositionobstacle13 = (generateRandomNumber(0,1450));
+      let ypositionobstacle13 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 13, x: xpositionobstacle13, y: ypositionobstacle13})
+      
+      let xpositionobstacle14 = (generateRandomNumber(0,1450));
+      let ypositionobstacle14 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 14, x: xpositionobstacle14, y: ypositionobstacle14})
+
+      let xpositionobstacle15 = (generateRandomNumber(0,1450));
+      let ypositionobstacle15 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 15, x: xpositionobstacle15, y: ypositionobstacle15})
+
+      let xpositionobstacle16 = (generateRandomNumber(0,1450));
+      let ypositionobstacle16 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 16, x: xpositionobstacle16, y: ypositionobstacle16})
+      
+      let xpositionobstacle17 = (generateRandomNumber(0,1450));
+      let ypositionobstacle17 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 17, x: xpositionobstacle17, y: ypositionobstacle17})
+
+      let xpositionobstacle18 = (generateRandomNumber(0,1450));
+      let ypositionobstacle18 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 18, x: xpositionobstacle18, y: ypositionobstacle18})
+
+      let xpositionobstacle19 = (generateRandomNumber(0,1450));
+      let ypositionobstacle19 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 19, x: xpositionobstacle19, y: ypositionobstacle19})
+      
+      let xpositionobstacle20 = (generateRandomNumber(0,1450));
+      let ypositionobstacle20 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 20, x: xpositionobstacle20, y: ypositionobstacle20})
+
+      let xpositionobstacle21 = (generateRandomNumber(0,1450));
+      let ypositionobstacle21 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 21, x: xpositionobstacle21, y: ypositionobstacle21})
+
+      let xpositionobstacle22 = (generateRandomNumber(0,1450));
+      let ypositionobstacle22 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 22, x: xpositionobstacle22, y: ypositionobstacle22})
+      
+      let xpositionobstacle23 = (generateRandomNumber(0,1450));
+      let ypositionobstacle23 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 23, x: xpositionobstacle23, y: ypositionobstacle23})
+
+      let xpositionobstacle24 = (generateRandomNumber(0,1450));
+      let ypositionobstacle24 = (generateRandomNumber(0,650));
+      blocks.push({blockNumber: 24, x: xpositionobstacle24, y: ypositionobstacle24})
+
+      
+
+      
+      
       function drawFrame(frameX, frameY, canvasX, canvasY) {
         ctx.drawImage(img,
                       frameX * WIDTH, frameY * HEIGHT, WIDTH, HEIGHT,
                       canvasX, canvasY, SCALED_WIDTH, SCALED_HEIGHT);
+
+    
+  
+
+   
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle1),(ypositionobstacle1),50,50);  
+    
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle2),(ypositionobstacle2),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle3),(ypositionobstacle3),50,50);  
+
+
+     var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle4),(ypositionobstacle4),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle5),(ypositionobstacle5),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle6),(ypositionobstacle6),50,50);  
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle7),(ypositionobstacle7),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle8),(ypositionobstacle8),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle9),(ypositionobstacle9),50,50);  
+
+
+     var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle10),(ypositionobstacle10),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle11),(ypositionobstacle11),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle12),(ypositionobstacle12),50,50);  
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle13),(ypositionobstacle13),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle14),(ypositionobstacle14),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle15),(ypositionobstacle15),50,50);  
+
+
+     var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle16),(ypositionobstacle16),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle17),(ypositionobstacle17),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle18),(ypositionobstacle18),50,50);  
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle19),(ypositionobstacle19),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle20),(ypositionobstacle20),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle21),(ypositionobstacle21),50,50);  
+
+
+     var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle22),(ypositionobstacle22),50,50);  
+                      
+                      
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle23),(ypositionobstacle23),50,50);  
+
+
+    var context = canvas.getContext('2d');
+    context.fillRect((xpositionobstacle24),(ypositionobstacle24),50,50); 
+
       }
       
       const CYCLE_LOOP = [0, 1, 0, 2];
@@ -37,15 +264,23 @@ let img = new Image();
           keyDown[event.key] = false;
       }
       
-      const movespeed = 3;
-      let positionX = 0;
-      let positionY = 0;
       
+    
+      const movespeed = 2.8;
+let positionX = 0;
+let positionY = 0;
+      
+
+
       
       function movementMechanics() {
         
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         
+    
+
+
+
         if (keyDown.ArrowUp) {
             if (positionY >= movespeed) {
               positionY -= movespeed;
@@ -66,10 +301,34 @@ let img = new Image();
               positionX += movespeed;
             }
           
-       }
-        drawFrame(0, 0, positionX, positionY);
-       window.requestAnimationFrame(movementMechanics);
+       } 
+        
+       drawFrame(0, 0, positionX, positionY);
+
+        let requestAnimation = true;
+
+        for (let block of blocks) {
+          let topLineofBlock = block.y;
+          let leftLineofBlock = block.x;
+          let bottomLineofBlock = block.y + 50;
+          let rightLineofBlock = block.x + 50;
+          let bottomLineofPlayer = positionY + HEIGHT;
+          let rightLineofPlayer = positionX + WIDTH;
+
+        
+
+          if (rightLineofPlayer > leftLineofBlock && rightLineofPlayer < rightLineofBlock && bottomLineofPlayer > topLineofBlock && bottomLineofPlayer < bottomLineofBlock) {
+            requestAnimation = false
+          }
+        }
+        
+        if (requestAnimation) {
+          window.requestAnimationFrame(movementMechanics);
+        }
+       
       }
+
+
 
 
 
