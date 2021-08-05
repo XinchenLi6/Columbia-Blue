@@ -310,7 +310,7 @@ let ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle10= generateRandomNumber(-0.17, 0.17);
+let ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
@@ -319,7 +319,7 @@ let xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle15= generateRandomNumber(-0.17, 0.17);
+let xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
 let xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
 let ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
@@ -657,7 +657,7 @@ function movementMechanics() {
             xpositionobstacle11 = xpositionobstacle11 + xmomentumobstacle11;
             ypositionobstacle11 = ypositionobstacle11 + ymomentumobstacle11;
 
-            if (xpositionobstacle1 > 1450) {
+            if (xpositionobstacle11 > 1450) {
               xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
               ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
                       xpositionobstacle11 = xpositionobstacle11 - 5;
@@ -771,7 +771,7 @@ function movementMechanics() {
                                     if (xpositionobstacle15 < 0) {
                                 xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
                                 ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle7 = xpositionobstacle7 + 5;
+                                        xpositionobstacle15 = xpositionobstacle15 + 5;
                                     }
                                     if (ypositionobstacle15 < 0) {
                                 xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
@@ -827,7 +827,7 @@ function movementMechanics() {
             if (ypositionobstacle17 < 0) {
 				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
 				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-                ypositionobstacle17 = ypositionobstacle1 + 5;
+                ypositionobstacle17 = ypositionobstacle11 + 5;
             } 
 
             
@@ -968,7 +968,7 @@ function movementMechanics() {
                               if (xpositionobstacle23 > 1450) {
                                 xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
                                 ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle7 = xpositionobstacle7 - 5;
+                                        xpositionobstacle23 = xpositionobstacle23 - 5;
                                     }
                                     if (ypositionobstacle23 > 650) {
                                 xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
