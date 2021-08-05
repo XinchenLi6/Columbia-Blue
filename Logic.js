@@ -292,9 +292,6 @@ const movespeed = 4;
 let positionX = 0;
 let positionY = 0;
 
-let date = new Date();
-let lastUpdate = date.getTime();
-
 let xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
 let ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
 
@@ -334,28 +331,28 @@ function movementMechanics() {
 		timerOne();
 
         function timerOne() {
-			date = new Date();
-			
-			if(date.getTime() > lastUpdate + 1000) {
-				console.log("changed direction");
-				lastUpdate = date.getTime();
-				xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
-				ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
-			}
 
             xpositionobstacle1 = xpositionobstacle1 + xmomentumobstacle1;
             ypositionobstacle1 = ypositionobstacle1 + ymomentumobstacle1;
 
             if (xpositionobstacle1 > 1450) {
+				xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+				ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
                 xpositionobstacle1 = xpositionobstacle1 - 8;
             }
             if (ypositionobstacle1 > 650) {
+				xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+				ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
                 ypositionobstacle1 = ypositionobstacle1 - 8;
             }
             if (xpositionobstacle1 < 0) {
+				xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+				ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
                 xpositionobstacle1 = xpositionobstacle1 + 8;
             }
             if (ypositionobstacle1 < 0) {
+				xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+				ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
                 ypositionobstacle1 = ypositionobstacle1 + 8;
             } else {
             }
