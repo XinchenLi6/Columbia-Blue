@@ -1,6 +1,10 @@
-var myGamePiece;
-var myObstacles = [];
-var myScore;
+var score = 0;
+function update(){
+  score = score+1
+  console.log(score)
+}
+var updateScore =setInterval(update,1000);
+
 let img = new Image();
 img.src =
     "https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png";
@@ -331,7 +335,6 @@ function movementMechanics() {
 		timerOne();
 
         function timerOne() {
-
             xpositionobstacle1 = xpositionobstacle1 + xmomentumobstacle1;
             ypositionobstacle1 = ypositionobstacle1 + ymomentumobstacle1;
 
@@ -438,6 +441,7 @@ function movementMechanics() {
         ) {
             requestAnimation = false;
             alert("Game Over");
+            alert("Your score is: " + score)
             location.reload();
         }
     }
