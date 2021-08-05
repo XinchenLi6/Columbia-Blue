@@ -830,7 +830,7 @@ function movementMechanics() {
             if (ypositionobstacle17 < 0) {
 				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
 				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-                ypositionobstacle17 = ypositionobstacle11 + 5;
+                ypositionobstacle17 = ypositionobstacle17 + 5;
             } 
 
             
