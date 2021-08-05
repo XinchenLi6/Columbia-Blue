@@ -320,11 +320,14 @@ let positionY = 0;
           let rightLineofPlayer = positionX + 19;
 
           
-        setInterval(timerOne, 1000);
+        setInterval(timerOne, 10000);
       
         function timerOne() {
-          xpositionobstacle1 = xpositionobstacle1 + 0.001;
-          ypositionobstacle1 = ypositionobstacle1 + 0.001;
+          let xmomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+          let ymomentumobstacle1 = generateRandomNumber(-0.29, 0.29);
+          
+          xpositionobstacle1 = xpositionobstacle1 + xmomentumobstacle1;
+          ypositionobstacle1 = ypositionobstacle1 + ymomentumobstacle1;
           
           
           
@@ -335,20 +338,97 @@ let positionY = 0;
           if (ypositionobstacle1 > 650) {
             ypositionobstacle1 = ypositionobstacle1 - 8;
           }
+          if (xpositionobstacle1 < 0) {
+            xpositionobstacle1 = xpositionobstacle1 + 8
+          }
+          if (ypositionobstacle1 < 0) {
+            ypositionobstacle1 = ypositionobstacle1 + 8
+          }
+
+          else {
+            
+          }
+
+          
+
+
+          blocks[0].x = xpositionobstacle1;
+          blocks[0].y = ypositionobstacle1;
+          
+          blocks[1].x = xpositionobstacle2;
+          blocks[1].y = ypositionobstacle2;
         
+          blocks[2].x = xpositionobstacle3;
+          blocks[2].y = ypositionobstacle3;
         
+          blocks[3].x = xpositionobstacle4;
+          blocks[3].y = ypositionobstacle4;
+
+          blocks[4].x = xpositionobstacle5;
+          blocks[4].y = ypositionobstacle5;
+
+          blocks[5].x = xpositionobstacle6;
+          blocks[5].y = ypositionobstacle6;
+
+          blocks[6].x = xpositionobstacle7;
+          blocks[6].y = ypositionobstacle7;
+
+          blocks[7].x = xpositionobstacle8;
+          blocks[7].y = ypositionobstacle8;
+
+          blocks[8].x = xpositionobstacle9;
+          blocks[8].y = ypositionobstacle9;
+
+          blocks[9].x = xpositionobstacle10;
+          blocks[9].y = ypositionobstacle10;
+
+          blocks[10].x = xpositionobstacle11;
+          blocks[10].y = ypositionobstacle11;
+
+          blocks[11].x = xpositionobstacle12;
+          blocks[11].y = ypositionobstacle12;
+
+          blocks[12].x = xpositionobstacle13;
+          blocks[12].y = ypositionobstacle13;
+          
+          blocks[13].x = xpositionobstacle14;
+          blocks[13].y = ypositionobstacle14;
         
+          blocks[14].x = xpositionobstacle15;
+          blocks[14].y = ypositionobstacle15;
         
-        // function timerOne() {
-        // xpositionobstacle1 = xpositionobstacle1 + 0.001;
-        // ypositionobstacle1 = ypositionobstacle1 + 0.001;
-        // if (xpositionobstacle1 > 1450) {
-        //   xpositionobstacle1 = xpositionobstacle1 - 8;
-        // }
-        // if (ypositionobstacle1 > 650) {
-        //   ypositionobstacle1 = ypositionobstacle1 - 8;
-        // }
+          blocks[15].x = xpositionobstacle16;
+          blocks[15].y = ypositionobstacle16;
+
+          blocks[16].x = xpositionobstacle17;
+          blocks[16].y = ypositionobstacle17;
+
+          blocks[17].x = xpositionobstacle18;
+          blocks[17].y = ypositionobstacle18;
+
+          blocks[18].x = xpositionobstacle19;
+          blocks[18].y = ypositionobstacle19;
+
+          blocks[19].x = xpositionobstacle20;
+          blocks[19].y = ypositionobstacle20;
+
+          blocks[20].x = xpositionobstacle21;
+          blocks[20].y = ypositionobstacle21;
+
+          blocks[21].x = xpositionobstacle22;
+          blocks[21].y = ypositionobstacle22;
+
+          blocks[22].x = xpositionobstacle23;
+          blocks[22].y = ypositionobstacle23;
+
+          blocks[23].x = xpositionobstacle24;
+          blocks[23].y = ypositionobstacle24;
+
+
+
 }
+
+
 
       
      
