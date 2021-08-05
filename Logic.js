@@ -1,19 +1,17 @@
+var myGamePiece;
+var myObstacles = [];
+var myScore;
 let img = new Image();
       img.src = 'https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png';
       img.onload = function() {
         window.requestAnimationFrame(movementMechanics);
         
       };
- 
-    
 
 
       let elem = img
       let rect = elem.getBoundingClientRect();
       console.log(rect)
-      
-      
-
 
       
       let canvas = document.querySelector('canvas');
@@ -30,9 +28,8 @@ let img = new Image();
       const generateRandomNumber = (min, max) =>  {
         return (Math.random() * (max - min) + min);
         };
-       
-
       var blocks = [];
+
       
       let xpositionobstacle1 = (generateRandomNumber(0,1450));
       let ypositionobstacle1 = (generateRandomNumber(0,650));

@@ -1,6 +1,5 @@
 # Columbia-Blue
 
-Irene Skandalakis
 
 ## The Project of **\_\_\_**
 
@@ -8,12 +7,10 @@ Irene Skandalakis
 
 
 Carson Sernick
-
-eee
-
 James Blackburn
 Xinchen Li
 Kevin Liao
 Avidan Loike
 Chelsea Zhang
+Irene Skandalakis
 

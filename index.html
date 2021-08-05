@@ -1,82 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Columbia Blue's project</title>
-        <link rel="stylesheet" href="index.css" />
-    </head>
 
-    <body id="body">
-        <h1 id="welcome" class="heading">TODO: Insert Game Name</h1>
 
-        <canvas width="300" height="200"></canvas>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
 
-        <script type="text/javascript">
-            let img = new Image();
-            img.src =
-                "https://toppng.com/public/uploads/thumbnail/baston-sprite-sheet-template-circle-11562903924akb6je0i2d.png";
-            img.onload = function () {
-                window.requestAnimationFrame(movementMechanics);
-            };
+<body style="font-family: Poppins, sans-serif;">
+    <nav class="navbar navbar-light navbar-expand-md flash animated">
+        <div class="container"><a class="navbar-brand" href="index.html" style="font-family: Permanent Marker, cursive;">Sprite Game</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <section>
+        <div style="margin-top: 85px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-6-lg">
+                        <div class="jumbotron text-center border rounded shadow" style="background-color: rgba(55,107,241,0.94);opacity: 1;background-image: url(&quot;assets/img/2020-04-18_00.27.11.png&quot;);background-position: top;background-size: cover;background-repeat: no-repeat;">
+                            <h1 style="font-family: Permanent Marker, cursive;color: rgba(255,255,255,0.86);padding: 8px;">The Sprite Game</h1>
+                            <p style="color: rgba(255,255,255,0.98);font-size: 16px;">Its not even done yet</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding-bottom: 50px;">
+                <div class="row">
+                    <div class="col col-6-lg">
+                        <div class="card-group">
+                            <div class="card" style="padding-bottom: 17px;padding-right: 4px;"><embed type="text/html" src="javascript.html" width="100%" height="200">
 
-            let canvas = document.querySelector("canvas");
-            let ctx = canvas.getContext("2d");
+                                <div class="card-body">
+                                    <h4 class="card-title"><strong>Sprite Game</strong></h4>
+                                    <p class="card-text">Its a game that you try and dodge obsticles and don't die</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            const SCALE = 2;
-            const WIDTH = 26;
-            const HEIGHT = 29;
-            const SCALED_WIDTH = SCALE * WIDTH;
-            const SCALED_HEIGHT = SCALE * HEIGHT;
+</body>
 
-            function drawFrame(frameX, frameY, canvasX, canvasY) {
-                ctx.drawImage(
-                    img,
-                    frameX * WIDTH,
-                    frameY * HEIGHT,
-                    WIDTH,
-                    HEIGHT,
-                    canvasX,
-                    canvasY,
-                    SCALED_WIDTH,
-                    SCALED_HEIGHT
-                );
-            }
-
-            const CYCLE_LOOP = [0, 1, 0, 2];
-            let currentLoopIndex = 0;
-            let frameCount = 0;
-            let currentDirection = 0;
-            let keyDown = {};
-
-            window.addEventListener("keydown", keyDownListener);
-            function keyDownListener(event) {
-                keyDown[event.key] = true;
-            }
-
-            window.addEventListener("keyup", keyUpListener);
-            function keyUpListener(event) {
-                keyDown[event.key] = false;
-            }
-
-            const movespeed = 2;
-            let positionX = 0;
-            let positionY = 0;
-
-            function movementMechanics() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                if (keyDown.ArrowUp) {
-                    positionY -= movespeed;
-                } else if (keyDown.ArrowDown) {
-                    positionY += movespeed;
-                }
-                if (keyDown.ArrowLeft) {
-                    positionX -= movespeed;
-                } else if (keyDown.ArrowRight) {
-                    positionX += movespeed;
-                }
-                drawFrame(0, 0, positionX, positionY);
-                window.requestAnimationFrame(movementMechanics);
-            }
-        </script>
-    </body>
+</html>
 </html>
