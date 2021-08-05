@@ -143,8 +143,6 @@ let img = new Image();
         ctx.drawImage(img,
                       frameX * WIDTH, frameY * HEIGHT, WIDTH, HEIGHT,
                       canvasX, canvasY, SCALED_WIDTH, SCALED_HEIGHT);
-<<<<<<< HEAD
-=======
 
     
   
@@ -244,12 +242,6 @@ let img = new Image();
     context.fillRect((xpositionobstacle24),(ypositionobstacle24),50,50); 
 
       }
->>>>>>> 368103a3ba1de37226f2394238690fe7c0a2cbf2
-      
-      
-      var mySprite = canvas.getContext('2d');
-          mySprite.fillRect(500,300,90,90);
-        };
   
 
 
