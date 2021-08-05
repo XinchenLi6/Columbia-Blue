@@ -7,16 +7,11 @@ let img = new Image();
         window.requestAnimationFrame(movementMechanics);
         
       };
- 
-    
 
 
       let elem = img
       let rect = elem.getBoundingClientRect();
       console.log(rect)
-      
-      
-
 
       
       let canvas = document.querySelector('canvas');
@@ -33,9 +28,8 @@ let img = new Image();
       const generateRandomNumber = (min, max) =>  {
         return (Math.random() * (max - min) + min);
         };
-       
-
       var blocks = [];
+
       
       let xpositionobstacle1 = (generateRandomNumber(0,1450));
       let ypositionobstacle1 = (generateRandomNumber(0,650));
