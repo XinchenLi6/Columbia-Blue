@@ -291,6 +291,7 @@ function keyUpListener(event) {
     event.preventDefault();
     keyDown[event.key] = false;
 }
+
 let movespeed = 5;
 let positionX = 0;
 let positionY = 0;
@@ -345,8 +346,12 @@ let xmomentumobstacle24 = generateRandomNumber(-0.22, 0.22);
 let ymomentumobstacle24 = generateRandomNumber(-0.22, 0.22);
 
 function movementMechanics() {
+  let movespeed = 5;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+    if (keyDown.Shift) {
+  movespeed = 2.5;
+}
     if (keyDown.ArrowUp) {
         if (positionY >= movespeed) {
             positionY -= movespeed;
