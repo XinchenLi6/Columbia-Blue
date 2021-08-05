@@ -8,13 +8,10 @@ let img = new Image();
     
 
 
-      let elem = img
-      let rect = elem.getBoundingClientRect();
-      console.log(rect)
       
       
 
-
+      
       
       let canvas = document.querySelector('canvas');
       let ctx = canvas.getContext('2d');
@@ -36,8 +33,9 @@ let img = new Image();
       
       let xpositionobstacle1 = (generateRandomNumber(0,1450));
       let ypositionobstacle1 = (generateRandomNumber(0,650));
-      
       blocks.push({blockNumber: 1, x: xpositionobstacle1, y: ypositionobstacle1}) 
+      
+    
       
       let xpositionobstacle2 = (generateRandomNumber(0,1450));
       let ypositionobstacle2 = (generateRandomNumber(0,650));
@@ -245,6 +243,11 @@ let img = new Image();
     context.fillRect((xpositionobstacle24),(ypositionobstacle24),50,50); 
 
       }
+
+      
+      
+      
+
       
       const CYCLE_LOOP = [0, 1, 0, 2];
       let currentLoopIndex = 0;
@@ -266,7 +269,7 @@ let img = new Image();
       
       
     
-      const movespeed = 2.8;
+const movespeed = 4;
 let positionX = 0;
 let positionY = 0;
       
@@ -277,7 +280,7 @@ let positionY = 0;
         
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         
-    
+      
 
 
 
@@ -286,7 +289,7 @@ let positionY = 0;
               positionY -= movespeed;
             }
          } else if (keyDown.ArrowDown) {
-             if (positionY <= 665 - movespeed) {
+             if (positionY <= 680 - movespeed) {
               positionY += movespeed;
              }
           
@@ -297,28 +300,69 @@ let positionY = 0;
             }
           
         } else if (keyDown.ArrowRight) {
-            if (positionX <= 1470 -movespeed) {
+            if (positionX <= 1480 -movespeed) {
               positionX += movespeed;
             }
-          
-       } 
-        
-       drawFrame(0, 0, positionX, positionY);
+          } 
+        drawFrame(0, 0, positionX, positionY);
 
         let requestAnimation = true;
 
+        
+        
         for (let block of blocks) {
+
+    
+    
+
           let topLineofBlock = block.y;
           let leftLineofBlock = block.x;
-          let bottomLineofBlock = block.y + 50;
-          let rightLineofBlock = block.x + 50;
-          let bottomLineofPlayer = positionY + HEIGHT;
-          let rightLineofPlayer = positionX + WIDTH;
+          let bottomLineofBlock = block.y + 69;
+          let rightLineofBlock = block.x + 69;
+          let bottomLineofPlayer = positionY + 26;
+          let rightLineofPlayer = positionX + 19;
+
+          
+        setInterval(timerOne, 1000);
+      
+        function timerOne() {
+          xpositionobstacle1 = xpositionobstacle1 + 0.001;
+          ypositionobstacle1 = ypositionobstacle1 + 0.001;
+          
+          
+          
+          
+          if (xpositionobstacle1 > 1450) {
+            xpositionobstacle1 = xpositionobstacle1 - 8;
+          }
+          if (ypositionobstacle1 > 650) {
+            ypositionobstacle1 = ypositionobstacle1 - 8;
+          }
+        
+        
+        
+        
+        // function timerOne() {
+        // xpositionobstacle1 = xpositionobstacle1 + 0.001;
+        // ypositionobstacle1 = ypositionobstacle1 + 0.001;
+        // if (xpositionobstacle1 > 1450) {
+        //   xpositionobstacle1 = xpositionobstacle1 - 8;
+        // }
+        // if (ypositionobstacle1 > 650) {
+        //   ypositionobstacle1 = ypositionobstacle1 - 8;
+        // }
+}
+
+      
+     
+
 
         
 
-          if (rightLineofPlayer > leftLineofBlock && rightLineofPlayer < rightLineofBlock && bottomLineofPlayer > topLineofBlock && bottomLineofPlayer < bottomLineofBlock) {
-            requestAnimation = false
+          if ((rightLineofPlayer > leftLineofBlock && rightLineofPlayer < rightLineofBlock && bottomLineofPlayer > topLineofBlock && bottomLineofPlayer < bottomLineofBlock)) {
+            requestAnimation = false;
+            alert("Game Over");
+            location.reload();
           }
         }
         
@@ -326,7 +370,7 @@ let positionY = 0;
           window.requestAnimationFrame(movementMechanics);
         }
        
-      }
+  }
 
 
 
