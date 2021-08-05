@@ -350,7 +350,7 @@ function movementMechanics() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     if (keyDown.Shift) {
-  movespeed = 2.5;
+  movespeed = 2.3;
 }
     if (keyDown.ArrowUp) {
         if (positionY >= movespeed) {
