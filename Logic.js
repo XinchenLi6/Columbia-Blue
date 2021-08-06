@@ -87,11 +87,11 @@ let img = new Image();
       let ypositionobstacle12 = (generateRandomNumber(0,650));
       blocks.push({blockNumber: 12, x: xpositionobstacle12, y: ypositionobstacle12})
 var score = 0;
-function update(){
-  score = score+1
-  console.log(score)
+function update() {
+    score = score + 1;
+    console.log(score);
 }
-var updateScore =setInterval(update,1000);
+var updateScore = setInterval(update, 1000);
 
 let img = new Image();
 img.src =
@@ -114,162 +114,162 @@ const generateRandomNumber = (min, max) => {
 };
 var blocks = [];
 
-let xpositionobstacle1 = generateRandomNumber(0, 1450);
-let ypositionobstacle1 = generateRandomNumber(0, 650);
+let xpositionobstacle1 = generateRandomNumber(0, 1050);
+let ypositionobstacle1 = generateRandomNumber(0, 700);
 blocks.push({ blockNumber: 1, x: xpositionobstacle1, y: ypositionobstacle1 });
 
-let xpositionobstacle2 = generateRandomNumber(0, 1450);
-let ypositionobstacle2 = generateRandomNumber(0, 650);
+let xpositionobstacle2 = generateRandomNumber(0, 1050);
+let ypositionobstacle2 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 2, x: xpositionobstacle2, y: ypositionobstacle2 });
 
-let xpositionobstacle3 = generateRandomNumber(0, 1450);
-let ypositionobstacle3 = generateRandomNumber(0, 650);
+let xpositionobstacle3 = generateRandomNumber(0, 1050);
+let ypositionobstacle3 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 3, x: xpositionobstacle3, y: ypositionobstacle3 });
 
-let xpositionobstacle4 = generateRandomNumber(0, 1450);
-let ypositionobstacle4 = generateRandomNumber(0, 650);
+let xpositionobstacle4 = generateRandomNumber(0, 1050);
+let ypositionobstacle4 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 4, x: xpositionobstacle4, y: ypositionobstacle4 });
 
-let xpositionobstacle5 = generateRandomNumber(0, 1450);
-let ypositionobstacle5 = generateRandomNumber(0, 650);
+let xpositionobstacle5 = generateRandomNumber(0, 1050);
+let ypositionobstacle5 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 5, x: xpositionobstacle5, y: ypositionobstacle5 });
 
-let xpositionobstacle6 = generateRandomNumber(0, 1450);
-let ypositionobstacle6 = generateRandomNumber(0, 650);
+let xpositionobstacle6 = generateRandomNumber(0, 1050);
+let ypositionobstacle6 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 6, x: xpositionobstacle6, y: ypositionobstacle6 });
 
-let xpositionobstacle7 = generateRandomNumber(0, 1450);
-let ypositionobstacle7 = generateRandomNumber(0, 650);
+let xpositionobstacle7 = generateRandomNumber(0, 1050);
+let ypositionobstacle7 = generateRandomNumber(0, 700);
 
 blocks.push({ blockNumber: 7, x: xpositionobstacle7, y: ypositionobstacle7 });
 
-let xpositionobstacle8 = generateRandomNumber(0, 1450);
-let ypositionobstacle8 = generateRandomNumber(0, 650);
+let xpositionobstacle8 = generateRandomNumber(0, 1050);
+let ypositionobstacle8 = generateRandomNumber(0, 700);
 blocks.push({ blockNumber: 8, x: xpositionobstacle8, y: ypositionobstacle8 });
 
-let xpositionobstacle9 = generateRandomNumber(0, 1450);
-let ypositionobstacle9 = generateRandomNumber(0, 650);
+let xpositionobstacle9 = generateRandomNumber(0, 1050);
+let ypositionobstacle9 = generateRandomNumber(0, 700);
 blocks.push({ blockNumber: 9, x: xpositionobstacle9, y: ypositionobstacle9 });
 
-let xpositionobstacle10 = generateRandomNumber(0, 1450);
-let ypositionobstacle10 = generateRandomNumber(0, 650);
+let xpositionobstacle10 = generateRandomNumber(0, 1050);
+let ypositionobstacle10 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 10,
     x: xpositionobstacle10,
     y: ypositionobstacle10,
 });
 
-let xpositionobstacle11 = generateRandomNumber(0, 1450);
-let ypositionobstacle11 = generateRandomNumber(0, 650);
+let xpositionobstacle11 = generateRandomNumber(0, 1050);
+let ypositionobstacle11 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 11,
     x: xpositionobstacle11,
     y: ypositionobstacle11,
 });
 
-let xpositionobstacle12 = generateRandomNumber(0, 1450);
-let ypositionobstacle12 = generateRandomNumber(0, 650);
+let xpositionobstacle12 = generateRandomNumber(0, 1050);
+let ypositionobstacle12 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 12,
     x: xpositionobstacle12,
     y: ypositionobstacle12,
 });
 
-let xpositionobstacle13 = generateRandomNumber(0, 1450);
-let ypositionobstacle13 = generateRandomNumber(0, 650);
+let xpositionobstacle13 = generateRandomNumber(0, 1050);
+let ypositionobstacle13 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 13,
     x: xpositionobstacle13,
     y: ypositionobstacle13,
 });
 
-let xpositionobstacle14 = generateRandomNumber(0, 1450);
-let ypositionobstacle14 = generateRandomNumber(0, 650);
+let xpositionobstacle14 = generateRandomNumber(0, 1050);
+let ypositionobstacle14 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 14,
     x: xpositionobstacle14,
     y: ypositionobstacle14,
 });
 
-let xpositionobstacle15 = generateRandomNumber(0, 1450);
-let ypositionobstacle15 = generateRandomNumber(0, 650);
+let xpositionobstacle15 = generateRandomNumber(0, 1050);
+let ypositionobstacle15 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 15,
     x: xpositionobstacle15,
     y: ypositionobstacle15,
 });
 
-let xpositionobstacle16 = generateRandomNumber(0, 1450);
-let ypositionobstacle16 = generateRandomNumber(0, 650);
+let xpositionobstacle16 = generateRandomNumber(0, 1050);
+let ypositionobstacle16 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 16,
     x: xpositionobstacle16,
     y: ypositionobstacle16,
 });
 
-let xpositionobstacle17 = generateRandomNumber(0, 1450);
-let ypositionobstacle17 = generateRandomNumber(0, 650);
+let xpositionobstacle17 = generateRandomNumber(0, 1050);
+let ypositionobstacle17 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 17,
     x: xpositionobstacle17,
     y: ypositionobstacle17,
 });
 
-let xpositionobstacle18 = generateRandomNumber(0, 1450);
-let ypositionobstacle18 = generateRandomNumber(0, 650);
+let xpositionobstacle18 = generateRandomNumber(0, 1050);
+let ypositionobstacle18 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 18,
     x: xpositionobstacle18,
     y: ypositionobstacle18,
 });
 
-let xpositionobstacle19 = generateRandomNumber(0, 1450);
-let ypositionobstacle19 = generateRandomNumber(0, 650);
+let xpositionobstacle19 = generateRandomNumber(0, 1050);
+let ypositionobstacle19 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 19,
     x: xpositionobstacle19,
     y: ypositionobstacle19,
 });
 
-let xpositionobstacle20 = generateRandomNumber(0, 1450);
-let ypositionobstacle20 = generateRandomNumber(0, 650);
+let xpositionobstacle20 = generateRandomNumber(0, 1050);
+let ypositionobstacle20 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 20,
     x: xpositionobstacle20,
     y: ypositionobstacle20,
 });
 
-let xpositionobstacle21 = generateRandomNumber(0, 1450);
-let ypositionobstacle21 = generateRandomNumber(0, 650);
+let xpositionobstacle21 = generateRandomNumber(0, 1050);
+let ypositionobstacle21 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 21,
     x: xpositionobstacle21,
     y: ypositionobstacle21,
 });
 
-let xpositionobstacle22 = generateRandomNumber(0, 1450);
-let ypositionobstacle22 = generateRandomNumber(0, 650);
+let xpositionobstacle22 = generateRandomNumber(0, 1050);
+let ypositionobstacle22 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 22,
     x: xpositionobstacle22,
     y: ypositionobstacle22,
 });
 
-let xpositionobstacle23 = generateRandomNumber(0, 1450);
-let ypositionobstacle23 = generateRandomNumber(0, 650);
+let xpositionobstacle23 = generateRandomNumber(0, 1050);
+let ypositionobstacle23 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 23,
     x: xpositionobstacle23,
     y: ypositionobstacle23,
 });
 
-let xpositionobstacle24 = generateRandomNumber(0, 1450);
-let ypositionobstacle24 = generateRandomNumber(0, 650);
+let xpositionobstacle24 = generateRandomNumber(0, 1050);
+let ypositionobstacle24 = generateRandomNumber(0, 700);
 blocks.push({
     blockNumber: 24,
     x: xpositionobstacle24,
@@ -379,74 +379,73 @@ function keyUpListener(event) {
     event.preventDefault();
     keyDown[event.key] = false;
 }
-const movespeed = 5;
+
+let movespeed = 5;
 let positionX = 0;
 let positionY = 0;
 
-let xmomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-let xmomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-let ymomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-
-
-
-
-
-
+let xmomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+let xmomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+let ymomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
 
 function movementMechanics() {
+  let movespeed = 5;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
+
+    if (keyDown.Shift) {
+  movespeed = 2.3;
+}
     if (keyDown.ArrowUp) {
         if (positionY >= movespeed) {
             positionY -= movespeed;
         }
     } else if (keyDown.ArrowDown) {
-        if (positionY <= 680 - movespeed) {
+        if (positionY <= 730 - movespeed) {
             positionY += movespeed;
         }
     }
@@ -455,7 +454,7 @@ function movementMechanics() {
             positionX -= movespeed;
         }
     } else if (keyDown.ArrowRight) {
-        if (positionX <= 1480 - movespeed) {
+        if (positionX <= 1080 - movespeed) {
             positionX += movespeed;
         }
     }
@@ -630,631 +629,584 @@ let positionY = 0;
     
     
     
+
         timerOne();
         function timerOne() {
             xpositionobstacle1 = xpositionobstacle1 + xmomentumobstacle1;
             ypositionobstacle1 = ypositionobstacle1 + ymomentumobstacle1;
 
-            
-            if (xpositionobstacle1 > 1450) {
-				xmomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
+            if (xpositionobstacle1 > 1050) {
+                xmomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle1 = xpositionobstacle1 - 5;
             }
-            if (ypositionobstacle1 > 650) {
-				xmomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
+            if (ypositionobstacle1 > 700) {
+                xmomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
                 ypositionobstacle1 = ypositionobstacle1 - 5;
             }
             if (xpositionobstacle1 < 0) {
-				xmomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
+                xmomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle1 = xpositionobstacle1 + 5;
             }
             if (ypositionobstacle1 < 0) {
-				xmomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle1 = generateRandomNumber(-0.17, 0.17);
+                xmomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle1 = generateRandomNumber(-0.24, 0.24);
                 ypositionobstacle1 = ypositionobstacle1 + 5;
-            } 
+            }
 
-            
-            
-            
-            
-            
-            
             xpositionobstacle2 = xpositionobstacle2 + xmomentumobstacle2;
             ypositionobstacle2 = ypositionobstacle2 + ymomentumobstacle2;
 
-            if (xpositionobstacle2 > 1450) {
-              xmomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle2 = xpositionobstacle2 - 5;
-                  }
-                  if (ypositionobstacle2 > 650) {
-              xmomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle2 = ypositionobstacle2 - 5;
-                  }
-                  if (xpositionobstacle2 < 0) {
-              xmomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle2 = xpositionobstacle2 + 5;
-                  }
-                  if (ypositionobstacle2 < 0) {
-              xmomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle2 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle2 = ypositionobstacle2 + 5;
-                  } 
-
+            if (xpositionobstacle2 > 1050) {
+                xmomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle2 = xpositionobstacle2 - 5;
+            }
+            if (ypositionobstacle2 > 700) {
+                xmomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle2 = ypositionobstacle2 - 5;
+            }
+            if (xpositionobstacle2 < 0) {
+                xmomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle2 = xpositionobstacle2 + 5;
+            }
+            if (ypositionobstacle2 < 0) {
+                xmomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle2 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle2 = ypositionobstacle2 + 5;
+            }
 
             xpositionobstacle3 = xpositionobstacle3 + xmomentumobstacle3;
             ypositionobstacle3 = ypositionobstacle3 + ymomentumobstacle3;
 
-            if (xpositionobstacle3 > 1450) {
-              xmomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle3 = xpositionobstacle3 - 5;
-                  }
-                  if (ypositionobstacle3 > 650) {
-              xmomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle3 = ypositionobstacle3 - 5;
-                  }
-                  if (xpositionobstacle3 < 0) {
-              xmomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle3 = xpositionobstacle3 + 5;
-                  }
-                  if (ypositionobstacle3 < 0) {
-              xmomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle3 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle3 = ypositionobstacle3 + 5;
-                  } 
+            if (xpositionobstacle3 > 1050) {
+                xmomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle3 = xpositionobstacle3 - 5;
+            }
+            if (ypositionobstacle3 > 700) {
+                xmomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle3 = ypositionobstacle3 - 5;
+            }
+            if (xpositionobstacle3 < 0) {
+                xmomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle3 = xpositionobstacle3 + 5;
+            }
+            if (ypositionobstacle3 < 0) {
+                xmomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle3 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle3 = ypositionobstacle3 + 5;
+            }
 
-
-
-                  xpositionobstacle4 = xpositionobstacle4 + xmomentumobstacle4;
+            xpositionobstacle4 = xpositionobstacle4 + xmomentumobstacle4;
             ypositionobstacle4 = ypositionobstacle4 + ymomentumobstacle4;
 
-            if (xpositionobstacle4 > 1450) {
-              xmomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle4 = xpositionobstacle4 - 5;
-                  }
-                  if (ypositionobstacle4 > 650) {
-              xmomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle4 = ypositionobstacle4 - 5;
-                  }
-                  if (xpositionobstacle4 < 0) {
-              xmomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle4 = xpositionobstacle4 + 5;
-                  }
-                  if (ypositionobstacle4 < 0) {
-              xmomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle4 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle4 = ypositionobstacle4 + 5;
-                  } 
+            if (xpositionobstacle4 > 1050) {
+                xmomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle4 = xpositionobstacle4 - 5;
+            }
+            if (ypositionobstacle4 > 700) {
+                xmomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle4 = ypositionobstacle4 - 5;
+            }
+            if (xpositionobstacle4 < 0) {
+                xmomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle4 = xpositionobstacle4 + 5;
+            }
+            if (ypositionobstacle4 < 0) {
+                xmomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle4 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle4 = ypositionobstacle4 + 5;
+            }
 
-                  xpositionobstacle5 = xpositionobstacle5 + xmomentumobstacle5;
-                  ypositionobstacle5 = ypositionobstacle5 + ymomentumobstacle5;
-      
-                  if (xpositionobstacle5 > 1450) {
-                    xmomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle5 = xpositionobstacle5 - 5;
-                        }
-                        if (ypositionobstacle5 > 650) {
-                    xmomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle5 = ypositionobstacle5 - 5;
-                        }
-                        if (xpositionobstacle5 < 0) {
-                    xmomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle5 = xpositionobstacle5 + 5;
-                        }
-                        if (ypositionobstacle5 < 0) {
-                    xmomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle5 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle5 = ypositionobstacle5 + 5;
-                        } 
+            xpositionobstacle5 = xpositionobstacle5 + xmomentumobstacle5;
+            ypositionobstacle5 = ypositionobstacle5 + ymomentumobstacle5;
 
+            if (xpositionobstacle5 > 1050) {
+                xmomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle5 = xpositionobstacle5 - 5;
+            }
+            if (ypositionobstacle5 > 700) {
+                xmomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle5 = ypositionobstacle5 - 5;
+            }
+            if (xpositionobstacle5 < 0) {
+                xmomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle5 = xpositionobstacle5 + 5;
+            }
+            if (ypositionobstacle5 < 0) {
+                xmomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle5 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle5 = ypositionobstacle5 + 5;
+            }
 
-                        xpositionobstacle6 = xpositionobstacle6 + xmomentumobstacle6;
-                        ypositionobstacle6 = ypositionobstacle6 + ymomentumobstacle6;
-            
-                        if (xpositionobstacle6 > 1450) {
-                          xmomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle6 = xpositionobstacle6 - 5;
-                              }
-                              if (ypositionobstacle6 > 650) {
-                          xmomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle6 = ypositionobstacle6 - 5;
-                              }
-                              if (xpositionobstacle6 < 0) {
-                          xmomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle6 = xpositionobstacle6 + 5;
-                              }
-                              if (ypositionobstacle6 < 0) {
-                          xmomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle6 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle6 = ypositionobstacle6 + 5;
-                              } 
-            
+            xpositionobstacle6 = xpositionobstacle6 + xmomentumobstacle6;
+            ypositionobstacle6 = ypositionobstacle6 + ymomentumobstacle6;
 
+            if (xpositionobstacle6 > 1050) {
+                xmomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle6 = xpositionobstacle6 - 5;
+            }
+            if (ypositionobstacle6 > 700) {
+                xmomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle6 = ypositionobstacle6 - 5;
+            }
+            if (xpositionobstacle6 < 0) {
+                xmomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle6 = xpositionobstacle6 + 5;
+            }
+            if (ypositionobstacle6 < 0) {
+                xmomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle6 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle6 = ypositionobstacle6 + 5;
+            }
 
-                              xpositionobstacle7 = xpositionobstacle7 + xmomentumobstacle7;
-                              ypositionobstacle7 = ypositionobstacle7 + ymomentumobstacle7;
-                  
-                              if (xpositionobstacle7 > 1450) {
-                                xmomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle7 = xpositionobstacle7 - 5;
-                                    }
-                                    if (ypositionobstacle7 > 650) {
-                                xmomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle7 = ypositionobstacle7 - 5;
-                                    }
-                                    if (xpositionobstacle7 < 0) {
-                                xmomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle7 = xpositionobstacle7 + 5;
-                                    }
-                                    if (ypositionobstacle7 < 0) {
-                                xmomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle7 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle7 = ypositionobstacle7 + 5;
-                                    } 
+            xpositionobstacle7 = xpositionobstacle7 + xmomentumobstacle7;
+            ypositionobstacle7 = ypositionobstacle7 + ymomentumobstacle7;
 
+            if (xpositionobstacle7 > 1050) {
+                xmomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle7 = xpositionobstacle7 - 5;
+            }
+            if (ypositionobstacle7 > 700) {
+                xmomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle7 = ypositionobstacle7 - 5;
+            }
+            if (xpositionobstacle7 < 0) {
+                xmomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle7 = xpositionobstacle7 + 5;
+            }
+            if (ypositionobstacle7 < 0) {
+                xmomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle7 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle7 = ypositionobstacle7 + 5;
+            }
 
+            xpositionobstacle8 = xpositionobstacle8 + xmomentumobstacle8;
+            ypositionobstacle8 = ypositionobstacle8 + ymomentumobstacle8;
 
-                                    xpositionobstacle8 = xpositionobstacle8 + xmomentumobstacle8;
-                                    ypositionobstacle8 = ypositionobstacle8 + ymomentumobstacle8;
-                        
-                                    if (xpositionobstacle8 > 1450) {
-                                      xmomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle8 = xpositionobstacle8 - 5;
-                                          }
-                                          if (ypositionobstacle8 > 650) {
-                                      xmomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle8 = ypositionobstacle8 - 5;
-                                          }
-                                          if (xpositionobstacle8 < 0) {
-                                      xmomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle8 = xpositionobstacle8 + 5;
-                                          }
-                                          if (ypositionobstacle8 < 0) {
-                                      xmomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle8 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle8 = ypositionobstacle8 + 5;
-                                          } 
+            if (xpositionobstacle8 > 1050) {
+                xmomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle8 = xpositionobstacle8 - 5;
+            }
+            if (ypositionobstacle8 > 700) {
+                xmomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle8 = ypositionobstacle8 - 5;
+            }
+            if (xpositionobstacle8 < 0) {
+                xmomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle8 = xpositionobstacle8 + 5;
+            }
+            if (ypositionobstacle8 < 0) {
+                xmomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle8 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle8 = ypositionobstacle8 + 5;
+            }
 
-
-
-
-                                          xpositionobstacle9 = xpositionobstacle9 + xmomentumobstacle9;
+            xpositionobstacle9 = xpositionobstacle9 + xmomentumobstacle9;
             ypositionobstacle9 = ypositionobstacle9 + ymomentumobstacle9;
 
-            
-            if (xpositionobstacle9 > 1450) {
-				xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
+            if (xpositionobstacle9 > 1050) {
+                xmomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle9 = xpositionobstacle9 - 5;
             }
-            if (ypositionobstacle9 > 650) {
-				xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
+            if (ypositionobstacle9 > 700) {
+                xmomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
                 ypositionobstacle9 = ypositionobstacle9 - 5;
             }
             if (xpositionobstacle9 < 0) {
-				xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
+                xmomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle9 = xpositionobstacle9 + 5;
             }
             if (ypositionobstacle9 < 0) {
-				xmomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle9 = generateRandomNumber(-0.17, 0.17);
+                xmomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle9 = generateRandomNumber(-0.24, 0.24);
                 ypositionobstacle9 = ypositionobstacle9 + 5;
-            } 
+            }
 
-            
-            
-            
-            
-            
-            
             xpositionobstacle10 = xpositionobstacle10 + xmomentumobstacle10;
             ypositionobstacle10 = ypositionobstacle10 + ymomentumobstacle10;
 
-            if (xpositionobstacle10 > 1450) {
-              xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle10 = xpositionobstacle10 - 5;
-                  }
-                  if (ypositionobstacle10 > 650) {
-              xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle10 = ypositionobstacle10 - 5;
-                  }
-                  if (xpositionobstacle10 < 0) {
-              xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle10 = xpositionobstacle10 + 5;
-                  }
-                  if (ypositionobstacle10 < 0) {
-              xmomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle10 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle10 = ypositionobstacle10 + 5;
-                  } 
-
+            if (xpositionobstacle10 > 1050) {
+                xmomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle10 = xpositionobstacle10 - 5;
+            }
+            if (ypositionobstacle10 > 700) {
+                xmomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle10 = ypositionobstacle10 - 5;
+            }
+            if (xpositionobstacle10 < 0) {
+                xmomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle10 = xpositionobstacle10 + 5;
+            }
+            if (ypositionobstacle10 < 0) {
+                xmomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle10 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle10 = ypositionobstacle10 + 5;
+            }
 
             xpositionobstacle11 = xpositionobstacle11 + xmomentumobstacle11;
             ypositionobstacle11 = ypositionobstacle11 + ymomentumobstacle11;
 
-            if (xpositionobstacle11 > 1450) {
-              xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle11 = xpositionobstacle11 - 5;
-                  }
-                  if (ypositionobstacle11 > 650) {
-              xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle11 = ypositionobstacle11 - 5;
-                  }
-                  if (xpositionobstacle11 < 0) {
-              xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle11 = xpositionobstacle11 + 5;
-                  }
-                  if (ypositionobstacle11 < 0) {
-              xmomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle11 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle11 = ypositionobstacle11 + 5;
-                  } 
+            if (xpositionobstacle11 > 1050) {
+                xmomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle11 = xpositionobstacle11 - 5;
+            }
+            if (ypositionobstacle11 > 700) {
+                xmomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle11 = ypositionobstacle11 - 5;
+            }
+            if (xpositionobstacle11 < 0) {
+                xmomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle11 = xpositionobstacle11 + 5;
+            }
+            if (ypositionobstacle11 < 0) {
+                xmomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle11 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle11 = ypositionobstacle11 + 5;
+            }
 
-
-
-                  xpositionobstacle12 = xpositionobstacle12 + xmomentumobstacle12;
+            xpositionobstacle12 = xpositionobstacle12 + xmomentumobstacle12;
             ypositionobstacle12 = ypositionobstacle12 + ymomentumobstacle12;
 
-            if (xpositionobstacle12 > 1450) {
-              xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle12 = xpositionobstacle12 - 5;
-                  }
-                  if (ypositionobstacle12 > 650) {
-              xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle12 = ypositionobstacle12 - 5;
-                  }
-                  if (xpositionobstacle12 < 0) {
-              xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle12 = xpositionobstacle12 + 5;
-                  }
-                  if (ypositionobstacle12 < 0) {
-              xmomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle12 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle12 = ypositionobstacle12 + 5;
-                  } 
+            if (xpositionobstacle12 > 1050) {
+                xmomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle12 = xpositionobstacle12 - 5;
+            }
+            if (ypositionobstacle12 > 700) {
+                xmomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle12 = ypositionobstacle12 - 5;
+            }
+            if (xpositionobstacle12 < 0) {
+                xmomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle12 = xpositionobstacle12 + 5;
+            }
+            if (ypositionobstacle12 < 0) {
+                xmomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle12 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle12 = ypositionobstacle12 + 5;
+            }
 
-                  xpositionobstacle13 = xpositionobstacle13 + xmomentumobstacle13;
-                  ypositionobstacle13 = ypositionobstacle13 + ymomentumobstacle13;
-      
-                  if (xpositionobstacle13 > 1450) {
-                    xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle13 = xpositionobstacle13 - 5;
-                        }
-                        if (ypositionobstacle13 > 650) {
-                    xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle13 = ypositionobstacle13 - 5;
-                        }
-                        if (xpositionobstacle13 < 0) {
-                    xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle13 = xpositionobstacle13 + 5;
-                        }
-                        if (ypositionobstacle13< 0) {
-                    xmomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle13 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle13 = ypositionobstacle13 + 5;
-                        } 
+            xpositionobstacle13 = xpositionobstacle13 + xmomentumobstacle13;
+            ypositionobstacle13 = ypositionobstacle13 + ymomentumobstacle13;
 
+            if (xpositionobstacle13 > 1050) {
+                xmomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle13 = xpositionobstacle13 - 5;
+            }
+            if (ypositionobstacle13 > 700) {
+                xmomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle13 = ypositionobstacle13 - 5;
+            }
+            if (xpositionobstacle13 < 0) {
+                xmomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle13 = xpositionobstacle13 + 5;
+            }
+            if (ypositionobstacle13 < 0) {
+                xmomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle13 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle13 = ypositionobstacle13 + 5;
+            }
 
-                        xpositionobstacle14 = xpositionobstacle14 + xmomentumobstacle14;
-                        ypositionobstacle14 = ypositionobstacle14 + ymomentumobstacle14;
-            
-                        if (xpositionobstacle14 > 1450) {
-                          xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle14 = xpositionobstacle14 - 5;
-                              }
-                              if (ypositionobstacle14 > 650) {
-                          xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle14 = ypositionobstacle14 - 5;
-                              }
-                              if (xpositionobstacle14 < 0) {
-                          xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle14 = xpositionobstacle14 + 5;
-                              }
-                              if (ypositionobstacle14 < 0) {
-                          xmomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle14 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle14 = ypositionobstacle14 + 5;
-                              } 
-            
+            xpositionobstacle14 = xpositionobstacle14 + xmomentumobstacle14;
+            ypositionobstacle14 = ypositionobstacle14 + ymomentumobstacle14;
 
+            if (xpositionobstacle14 > 1050) {
+                xmomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle14 = xpositionobstacle14 - 5;
+            }
+            if (ypositionobstacle14 > 700) {
+                xmomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle14 = ypositionobstacle14 - 5;
+            }
+            if (xpositionobstacle14 < 0) {
+                xmomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle14 = xpositionobstacle14 + 5;
+            }
+            if (ypositionobstacle14 < 0) {
+                xmomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle14 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle14 = ypositionobstacle14 + 5;
+            }
 
-                              xpositionobstacle15 = xpositionobstacle15 + xmomentumobstacle15;
-                              ypositionobstacle15 = ypositionobstacle15 + ymomentumobstacle15;
-                  
-                              if (xpositionobstacle15 > 1450) {
-                                xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle15 = xpositionobstacle15 - 5;
-                                    }
-                                    if (ypositionobstacle15 > 650) {
-                                xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle15 = ypositionobstacle15 - 5;
-                                    }
-                                    if (xpositionobstacle15 < 0) {
-                                xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle15 = xpositionobstacle15 + 5;
-                                    }
-                                    if (ypositionobstacle15 < 0) {
-                                xmomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle15 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle15 = ypositionobstacle15 + 5;
-                                    } 
+            xpositionobstacle15 = xpositionobstacle15 + xmomentumobstacle15;
+            ypositionobstacle15 = ypositionobstacle15 + ymomentumobstacle15;
 
+            if (xpositionobstacle15 > 1050) {
+                xmomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle15 = xpositionobstacle15 - 5;
+            }
+            if (ypositionobstacle15 > 700) {
+                xmomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle15 = ypositionobstacle15 - 5;
+            }
+            if (xpositionobstacle15 < 0) {
+                xmomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle15 = xpositionobstacle15 + 5;
+            }
+            if (ypositionobstacle15 < 0) {
+                xmomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle15 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle15 = ypositionobstacle15 + 5;
+            }
 
+            xpositionobstacle16 = xpositionobstacle16 + xmomentumobstacle16;
+            ypositionobstacle16 = ypositionobstacle16 + ymomentumobstacle16;
 
-                                    xpositionobstacle16 = xpositionobstacle16 + xmomentumobstacle16;
-                                    ypositionobstacle16 = ypositionobstacle16 + ymomentumobstacle16;
-                        
-                                    if (xpositionobstacle16 > 1450) {
-                                      xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle16 = xpositionobstacle16 - 5;
-                                          }
-                                          if (ypositionobstacle16 > 650) {
-                                      xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle16 = ypositionobstacle16 - 5;
-                                          }
-                                          if (xpositionobstacle16 < 0) {
-                                      xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle16 = xpositionobstacle16 + 5;
-                                          }
-                                          if (ypositionobstacle16 < 0) {
-                                      xmomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle16 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle16 = ypositionobstacle16 + 5;
-                                          } 
+            if (xpositionobstacle16 > 1050) {
+                xmomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle16 = xpositionobstacle16 - 5;
+            }
+            if (ypositionobstacle16 > 700) {
+                xmomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle16 = ypositionobstacle16 - 5;
+            }
+            if (xpositionobstacle16 < 0) {
+                xmomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle16 = xpositionobstacle16 + 5;
+            }
+            if (ypositionobstacle16 < 0) {
+                xmomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle16 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle16 = ypositionobstacle16 + 5;
+            }
 
             xpositionobstacle17 = xpositionobstacle17 + xmomentumobstacle17;
             ypositionobstacle17 = ypositionobstacle17 + ymomentumobstacle17;
 
-            
-            if (xpositionobstacle17 > 1450) {
-				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
+            if (xpositionobstacle17 > 1050) {
+                xmomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle17 = xpositionobstacle17 - 5;
             }
-            if (ypositionobstacle17 > 650) {
-				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
+            if (ypositionobstacle17 > 700) {
+                xmomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
                 ypositionobstacle17 = ypositionobstacle17 - 5;
             }
             if (xpositionobstacle17 < 0) {
-				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
+                xmomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
                 xpositionobstacle17 = xpositionobstacle17 + 5;
             }
             if (ypositionobstacle17 < 0) {
-				xmomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-				ymomentumobstacle17 = generateRandomNumber(-0.17, 0.17);
-                ypositionobstacle17 = ypositionobstacle11 + 5;
-            } 
+                xmomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle17 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle17 = ypositionobstacle17 + 5;
+            }
 
-            
-            
-            
-            
-            
-            
             xpositionobstacle18 = xpositionobstacle18 + xmomentumobstacle18;
             ypositionobstacle18 = ypositionobstacle18 + ymomentumobstacle18;
 
-            if (xpositionobstacle18 > 1450) {
-              xmomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle18 = xpositionobstacle18 - 5;
-                  }
-                  if (ypositionobstacle18 > 650) {
-              xmomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle18 = ypositionobstacle18 - 5;
-                  }
-                  if (xpositionobstacle18 < 0) {
-              xmomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle18 = xpositionobstacle18 + 5;
-                  }
-                  if (ypositionobstacle18 < 0) {
-              xmomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle18 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle18 = ypositionobstacle18 + 5;
-                  } 
-
+            if (xpositionobstacle18 > 1050) {
+                xmomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle18 = xpositionobstacle18 - 5;
+            }
+            if (ypositionobstacle18 > 700) {
+                xmomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle18 = ypositionobstacle18 - 5;
+            }
+            if (xpositionobstacle18 < 0) {
+                xmomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle18 = xpositionobstacle18 + 5;
+            }
+            if (ypositionobstacle18 < 0) {
+                xmomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle18 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle18 = ypositionobstacle18 + 5;
+            }
 
             xpositionobstacle19 = xpositionobstacle19 + xmomentumobstacle19;
             ypositionobstacle19 = ypositionobstacle19 + ymomentumobstacle19;
 
-            if (xpositionobstacle19 > 1450) {
-              xmomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle19 = xpositionobstacle19 - 5;
-                  }
-                  if (ypositionobstacle19 > 650) {
-              xmomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle19 = ypositionobstacle19 - 5;
-                  }
-                  if (xpositionobstacle19 < 0) {
-              xmomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle19 = xpositionobstacle19 + 5;
-                  }
-                  if (ypositionobstacle19 < 0) {
-              xmomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle19 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle19 = ypositionobstacle19 + 5;
-                  } 
+            if (xpositionobstacle19 > 1050) {
+                xmomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle19 = xpositionobstacle19 - 5;
+            }
+            if (ypositionobstacle19 > 700) {
+                xmomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle19 = ypositionobstacle19 - 5;
+            }
+            if (xpositionobstacle19 < 0) {
+                xmomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle19 = xpositionobstacle19 + 5;
+            }
+            if (ypositionobstacle19 < 0) {
+                xmomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle19 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle19 = ypositionobstacle19 + 5;
+            }
 
-
-
-                  xpositionobstacle20 = xpositionobstacle20 + xmomentumobstacle20;
+            xpositionobstacle20 = xpositionobstacle20 + xmomentumobstacle20;
             ypositionobstacle20 = ypositionobstacle20 + ymomentumobstacle20;
 
-            if (xpositionobstacle20 > 1450) {
-              xmomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle20 = xpositionobstacle20 - 5;
-                  }
-                  if (ypositionobstacle20 > 650) {
-              xmomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle20 = ypositionobstacle20 - 5;
-                  }
-                  if (xpositionobstacle20 < 0) {
-              xmomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-                      xpositionobstacle20 = xpositionobstacle20 + 5;
-                  }
-                  if (ypositionobstacle20 < 0) {
-              xmomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-              ymomentumobstacle20 = generateRandomNumber(-0.17, 0.17);
-                      ypositionobstacle20 = ypositionobstacle20 + 5;
-                  } 
+            if (xpositionobstacle20 > 1050) {
+                xmomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle20 = xpositionobstacle20 - 5;
+            }
+            if (ypositionobstacle20 > 700) {
+                xmomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle20 = ypositionobstacle20 - 5;
+            }
+            if (xpositionobstacle20 < 0) {
+                xmomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle20 = xpositionobstacle20 + 5;
+            }
+            if (ypositionobstacle20 < 0) {
+                xmomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle20 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle20 = ypositionobstacle20 + 5;
+            }
 
-                  xpositionobstacle21 = xpositionobstacle21 + xmomentumobstacle21;
-                  ypositionobstacle21 = ypositionobstacle21 + ymomentumobstacle21;
-      
-                  if (xpositionobstacle21 > 1450) {
-                    xmomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle21 = xpositionobstacle21 - 5;
-                        }
-                        if (ypositionobstacle21 > 650) {
-                    xmomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle21 = ypositionobstacle21 - 5;
-                        }
-                        if (xpositionobstacle21 < 0) {
-                    xmomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                            xpositionobstacle21 = xpositionobstacle21 + 5;
-                        }
-                        if (ypositionobstacle21 < 0) {
-                    xmomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                    ymomentumobstacle21 = generateRandomNumber(-0.17, 0.17);
-                            ypositionobstacle21 = ypositionobstacle21 + 5;
-                        } 
+            xpositionobstacle21 = xpositionobstacle21 + xmomentumobstacle21;
+            ypositionobstacle21 = ypositionobstacle21 + ymomentumobstacle21;
 
+            if (xpositionobstacle21 > 1050) {
+                xmomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle21 = xpositionobstacle21 - 5;
+            }
+            if (ypositionobstacle21 > 700) {
+                xmomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle21 = ypositionobstacle21 - 5;
+            }
+            if (xpositionobstacle21 < 0) {
+                xmomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle21 = xpositionobstacle21 + 5;
+            }
+            if (ypositionobstacle21 < 0) {
+                xmomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle21 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle21 = ypositionobstacle21 + 5;
+            }
 
-                        xpositionobstacle22 = xpositionobstacle22 + xmomentumobstacle22;
-                        ypositionobstacle22 = ypositionobstacle22 + ymomentumobstacle22;
-            
-                        if (xpositionobstacle22 > 1450) {
-                          xmomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle22 = xpositionobstacle22 - 5;
-                              }
-                              if (ypositionobstacle22 > 650) {
-                          xmomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle22 = ypositionobstacle22 - 5;
-                              }
-                              if (xpositionobstacle22 < 0) {
-                          xmomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                                  xpositionobstacle22 = xpositionobstacle22 + 5;
-                              }
-                              if (ypositionobstacle22 < 0) {
-                          xmomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                          ymomentumobstacle22 = generateRandomNumber(-0.17, 0.17);
-                                  ypositionobstacle22 = ypositionobstacle22 + 5;
-                              } 
-            
+            xpositionobstacle22 = xpositionobstacle22 + xmomentumobstacle22;
+            ypositionobstacle22 = ypositionobstacle22 + ymomentumobstacle22;
 
+            if (xpositionobstacle22 > 1050) {
+                xmomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle22 = xpositionobstacle22 - 5;
+            }
+            if (ypositionobstacle22 > 700) {
+                xmomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle22 = ypositionobstacle22 - 5;
+            }
+            if (xpositionobstacle22 < 0) {
+                xmomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle22 = xpositionobstacle22 + 5;
+            }
+            if (ypositionobstacle22 < 0) {
+                xmomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle22 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle22 = ypositionobstacle22 + 5;
+            }
 
-                              xpositionobstacle23 = xpositionobstacle23 + xmomentumobstacle23;
-                              ypositionobstacle23 = ypositionobstacle23 + ymomentumobstacle23;
-                  
-                              if (xpositionobstacle23 > 1450) {
-                                xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle23 = xpositionobstacle23 - 5;
-                                    }
-                                    if (ypositionobstacle23 > 650) {
-                                xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle23 = ypositionobstacle23 - 5;
-                                    }
-                                    if (xpositionobstacle23 < 0) {
-                                xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                        xpositionobstacle23 = xpositionobstacle23 + 5;
-                                    }
-                                    if (ypositionobstacle23 < 0) {
-                                xmomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                ymomentumobstacle23 = generateRandomNumber(-0.17, 0.17);
-                                        ypositionobstacle23 = ypositionobstacle23 + 5;
-                                    } 
+            xpositionobstacle23 = xpositionobstacle23 + xmomentumobstacle23;
+            ypositionobstacle23 = ypositionobstacle23 + ymomentumobstacle23;
 
+            if (xpositionobstacle23 > 1050) {
+                xmomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle23 = xpositionobstacle23 - 5;
+            }
+            if (ypositionobstacle23 > 700) {
+                xmomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle23 = ypositionobstacle23 - 5;
+            }
+            if (xpositionobstacle23 < 0) {
+                xmomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle23 = xpositionobstacle23 + 5;
+            }
+            if (ypositionobstacle23 < 0) {
+                xmomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle23 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle23 = ypositionobstacle23 + 5;
+            }
 
+            xpositionobstacle24 = xpositionobstacle24 + xmomentumobstacle24;
+            ypositionobstacle24 = ypositionobstacle24 + ymomentumobstacle24;
 
-                                    xpositionobstacle24 = xpositionobstacle24 + xmomentumobstacle24;
-                                    ypositionobstacle24 = ypositionobstacle24 + ymomentumobstacle24;
-                        
-                                    if (xpositionobstacle24 > 1450) {
-                                      xmomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle24 = xpositionobstacle24 - 5;
-                                          }
-                                          if (ypositionobstacle24 > 650) {
-                                      xmomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle24 = ypositionobstacle24 - 5;
-                                          }
-                                          if (xpositionobstacle24 < 0) {
-                                      xmomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                              xpositionobstacle24 = xpositionobstacle24 + 5;
-                                          }
-                                          if (ypositionobstacle24 < 0) {
-                                      xmomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                      ymomentumobstacle24 = generateRandomNumber(-0.17, 0.17);
-                                              ypositionobstacle24 = ypositionobstacle24 + 5;
-                                          } 
+            if (xpositionobstacle24 > 1050) {
+                xmomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle24 = xpositionobstacle24 - 5;
+            }
+            if (ypositionobstacle24 > 700) {
+                xmomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle24 = ypositionobstacle24 - 5;
+            }
+            if (xpositionobstacle24 < 0) {
+                xmomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                xpositionobstacle24 = xpositionobstacle24 + 5;
+            }
+            if (ypositionobstacle24 < 0) {
+                xmomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ymomentumobstacle24 = generateRandomNumber(-0.24, 0.24);
+                ypositionobstacle24 = ypositionobstacle24 + 5;
+            }
 
             blocks[0].x = xpositionobstacle1;
             blocks[0].y = ypositionobstacle1;
@@ -1356,16 +1308,6 @@ let positionY = 0;
             blocks[23].y = ypositionobstacle24;
         }
 
-
-            
-          
-
-
-            
-        
-
-
-        
         if (
             rightLineofPlayer > leftLineofBlock &&
             rightLineofPlayer < rightLineofBlock &&
@@ -1374,7 +1316,7 @@ let positionY = 0;
         ) {
             requestAnimation = false;
             alert("Game Over");
-            alert("Your score is: " + score)
+            alert("Your score is: " + score);
             location.reload();
         }
     }
@@ -1382,4 +1324,4 @@ let positionY = 0;
     if (requestAnimation) {
         window.requestAnimationFrame(movementMechanics);
     }
-  }
+  
